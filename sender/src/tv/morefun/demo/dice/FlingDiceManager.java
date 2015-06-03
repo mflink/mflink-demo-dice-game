@@ -1,16 +1,16 @@
-package com.infthink.flint.demo.dice;
+package tv.morefun.demo.dice;
 
 import java.io.IOException;
 
-import tv.matchstick.flint.ApplicationMetadata;
-import tv.matchstick.flint.ConnectionResult;
-import tv.matchstick.flint.Flint;
-import tv.matchstick.flint.FlintDevice;
-import tv.matchstick.flint.FlintManager;
-import tv.matchstick.flint.FlintMediaControlIntent;
-import tv.matchstick.flint.ResultCallback;
-import tv.matchstick.flint.Status;
-import tv.matchstick.flint.Flint.ApplicationConnectionResult;
+import tv.morefun.flint.ApplicationMetadata;
+import tv.morefun.flint.ConnectionResult;
+import tv.morefun.flint.Flint;
+import tv.morefun.flint.FlintDevice;
+import tv.morefun.flint.FlintManager;
+import tv.morefun.flint.FlintMediaControlIntent;
+import tv.morefun.flint.ResultCallback;
+import tv.morefun.flint.Status;
+import tv.morefun.flint.Flint.ApplicationConnectionResult;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;

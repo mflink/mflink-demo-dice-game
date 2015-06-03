@@ -14,10 +14,9 @@
  * limitations under the License.
  */
 
-package com.infthink.flint.demo.dice;
+package tv.morefun.demo.dice;
 
-import com.infthink.flint.demo.dice.R;
-
+import tv.morefun.demo.dice.R;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
@@ -41,7 +40,7 @@ public class DiceActivity extends ActionBarActivity implements
     private static final int MSG_START = 0;
     private static final int MSG_STOP = 1;
 
-    private static final String APP_URL = "http://openflint.github.io/dice-game-demo/receiver/index.html";
+    private static final String APP_URL = "http://mflink.morefun.tv/mflink-demo-dice-game/receiver/index.html";
 
     private FlingDiceManager mFlingGameManager;
 

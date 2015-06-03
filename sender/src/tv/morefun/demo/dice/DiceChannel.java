@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.infthink.flint.demo.dice;
+package tv.morefun.demo.dice;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import tv.matchstick.flint.Flint;
-import tv.matchstick.flint.FlintDevice;
-import tv.matchstick.flint.FlintManager;
-import tv.matchstick.flint.ResultCallback;
-import tv.matchstick.flint.Status;
+import tv.morefun.flint.Flint;
+import tv.morefun.flint.FlintDevice;
+import tv.morefun.flint.FlintManager;
+import tv.morefun.flint.ResultCallback;
+import tv.morefun.flint.Status;
 
 import android.util.Log;
 
 public class DiceChannel implements Flint.MessageReceivedCallback {
     private static final String TAG = DiceChannel.class.getSimpleName();
 
-    private static final String GAME_NAMESPACE = "urn:flint:org.openflint.fling.dice";
+    private static final String GAME_NAMESPACE = "urn:flint:tv.morefun.demo.dice";
 
     public DiceChannel() {
     }

@@ -134,7 +134,7 @@ Aui.ready(function () {
     var init_fling = function () {
         var self = this;
         self.receiverWrapper = new FlintReceiverManager("~dice");
-        var messageBus = self.receiverWrapper.createMessageBus("urn:flint:org.openflint.fling.dice");
+        var messageBus = self.receiverWrapper.createMessageBus("urn:flint:tv.morefun.demo.dice");
 
         messageBus.on("message", function (data, senderId) {
             console.log('********onMessage********' + data);
