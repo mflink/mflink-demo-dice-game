@@ -1,7 +1,7 @@
 
 * { margin:0; padding:0; }
 html { background:#000000; background-image: url("image/logo.png"); background-size: 20%;background-repeat: no-repeat; background-position: left 10px top 10px;}
-body { background:#efefef; overflow:hidden; }
+body { background:#000000; overflow:hidden; }
 
 h1 { 
     text-align:center; margin-top:40px; text-shadow:1px 1px 3px #000; font-size:40px; color:#fff;
